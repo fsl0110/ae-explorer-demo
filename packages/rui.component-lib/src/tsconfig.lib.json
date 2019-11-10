@@ -1,0 +1,39 @@
+{
+  "include": ["lib/**/*", "react-app-env.d.ts"],
+  "exclude": ["app", "lib/**/*.stories.tsx", "lib/**/*.test.tsx"],
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "../lib",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["@types/*", "node_modules/@types/*", "*"]
+    },
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es5", "esnext", "dom"],
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "configFile": "./tslint.json",
+        "exclude": ["node_modules/**/*", "*.d.ts"],
+        "alwaysShowRuleFailuresAsWarnings": false,
+        "ignoreDefinitionFiles": true,
+        "suppressWhileTypeErrorsPresent": false,
+        "mockTypeScriptVersion": false,
+        "disableNoUnusedVariableRule": true
+      }
+    ]
+  }
+}

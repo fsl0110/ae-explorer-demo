@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag> Tag em tag 1`] = `
+<em>
+  some text
+</em>
+`;
+
+exports[`<Tag> Tag h1 1`] = `
+<h1>
+  some text
+</h1>
+`;
+
+exports[`<Tag> Tag strong 1`] = `
+<strong>
+  some text
+</strong>
+`;

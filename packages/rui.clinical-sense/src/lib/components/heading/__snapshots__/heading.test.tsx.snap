@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading> Heading h1 1`] = `
+<Tag
+  type="h1"
+>
+  <Text>
+    some text
+  </Text>
+</Tag>
+`;
+
+exports[`<Heading> Heading h1 2`] = `
+<Tag
+  type="h1"
+>
+  <Text>
+    some text
+  </Text>
+</Tag>
+`;
+
+exports[`<Heading> Heading h2 1`] = `
+<Tag
+  type="h2"
+>
+  <Text>
+    some text
+  </Text>
+</Tag>
+`;
+
+exports[`<Heading> Heading h3 1`] = `
+<Tag
+  type="h3"
+>
+  <Text>
+    some text
+  </Text>
+</Tag>
+`;

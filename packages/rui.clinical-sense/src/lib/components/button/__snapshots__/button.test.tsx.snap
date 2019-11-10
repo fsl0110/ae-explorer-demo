@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading> Button default 1`] = `
+<Button
+  block={false}
+  ghost={false}
+  htmlType="button"
+  loading={false}
+  type="default"
+>
+  Button
+</Button>
+`;
+
+exports[`<Heading> Button link 1`] = `
+<Button
+  block={false}
+  ghost={false}
+  htmlType="button"
+  loading={false}
+  type="link"
+>
+  Button
+</Button>
+`;
+
+exports[`<Heading> Button primary 1`] = `
+<Button
+  block={false}
+  ghost={false}
+  htmlType="button"
+  loading={false}
+  type="primary"
+>
+  Button
+</Button>
+`;

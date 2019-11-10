@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter> Snapshot 1`] = `
+<styled.div>
+  Clicked: 
+  1
+   times 
+  <Button
+    block={false}
+    ghost={false}
+    htmlType="button"
+    loading={false}
+    onClick={[MockFunction]}
+  >
+    +
+  </Button>
+   
+  <Button
+    block={false}
+    ghost={false}
+    htmlType="button"
+    loading={false}
+    onClick={[MockFunction]}
+  >
+    -
+  </Button>
+   
+  <Button
+    block={false}
+    ghost={false}
+    htmlType="button"
+    loading={false}
+    onClick={[MockFunction]}
+  >
+    undo
+  </Button>
+   
+  <Button
+    block={false}
+    ghost={false}
+    htmlType="button"
+    loading={false}
+    onClick={[MockFunction]}
+  >
+    redo
+  </Button>
+</styled.div>
+`;

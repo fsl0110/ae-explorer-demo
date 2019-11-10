@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text> Text color blue h1 1`] = `
+<styled.span
+  color="blue"
+>
+  some text
+</styled.span>
+`;
+
+exports[`<Text> Text default 1`] = `
+<styled.span>
+  some text
+</styled.span>
+`;

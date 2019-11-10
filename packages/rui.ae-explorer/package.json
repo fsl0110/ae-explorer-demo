@@ -1,0 +1,142 @@
+{
+  "name": "rui.ae-explorer",
+  "version": "0.2.0",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build:app": "react-app-rewired build",
+    "build:app:serve": "serve ./build",
+    "build:app:component": "rimraf ./lib && tsc -p ./src/tsconfig.app.json && yarn minify-all lib",
+    "build:app:component:watch": " tsc -p ./src/tsconfig.app.json --watch",
+    "build:lib": "rimraf ./lib && tsc -p ./src/tsconfig.lib.json && yarn minify-all lib",
+    "build:lib:watch": "tsc -p ./src/tsconfig.lib.json --watch",
+    "test": "react-app-rewired test",
+    "test:coverage": "yarn test --coverage --watchAll=false",
+    "test:debug": "react-app-rewired --inspect-brk test --runInBand --no-cache",
+    "storybook": "start-storybook -p 6006",
+    "storybook:build": "build-storybook",
+    "storybook:serve": "serve ./storybook-static",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "styleguide:serve": "serve ./styleguide",
+    "lint": "yarn lint:scripts && yarn lint:styles",
+    "lint:scripts": "tslint -p ./tsconfig.json",
+    "lint:styles": "stylelint src/**/*.{css,scss,ts,tsx}",
+    "analyze": "webpack-bundle-analyzer build/stats.json"
+  },
+  "dependencies": {
+    "rui.component-lib": "0.2.0",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.8",
+    "@types/react": "16.9.3",
+    "@types/react-dom": "16.9.1",
+    "antd": "^3.23.4",
+    "crossfilter2": "^1.4.7",
+    "d3": "^5.12.0",
+    "immer": "^4.0.0",
+    "object-hash": "^2.0.0",
+    "react": "^16.9.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.2",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-undo": "^0.6.1",
+    "styled-components": "^4.4.0",
+    "typescript": "3.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@fsl0110/rdk.preset__stylelint": "^0.0.1",
+    "@fsl0110/rdk.preset__tslint": "^0.0.1",
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/addon-info": "^5.2.1",
+    "@storybook/addon-knobs": "^5.2.1",
+    "@storybook/addon-links": "^5.2.1",
+    "@storybook/addon-notes": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "@types/d3": "^5.7.2",
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/glob": "^7.1.1",
+    "@types/lodash": "^4.14.144",
+    "@types/react-copy-to-clipboard": "^4.3.0",
+    "@types/react-redux": "^7.1.4",
+    "@types/react-router-dom": "^5.1.0",
+    "@types/redux": "^3.6.0",
+    "@types/storybook__addon-info": "^4.1.2",
+    "@types/storybook__addon-knobs": "^5.0.4",
+    "@types/styled-components": "^4.1.19",
+    "@types/uuid": "^3.4.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "minify-all": "^1.2.2",
+    "prettier": "^1.18.2",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "react-app-rewired": "^2.1.3",
+    "react-docgen-typescript-loader": "^3.2.1",
+    "react-styleguidist": "^9.1.16",
+    "rimraf": "^3.0.0",
+    "serve": "^11.2.0",
+    "stylelint": "^11.0.0",
+    "stylelint-prettier": "^1.1.1",
+    "stylelint-processor-styled-components": "^1.8.0",
+    "tslint": "^5.20.0",
+    "typescript-tslint-plugin": "^0.5.4",
+    "webpack-bundle-analyzer": "^3.5.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!<rootDir>/src/**/*.stories.{ts,tsx}",
+      "!<rootDir>/src/**/*.styles.{ts,tsx}",
+      "!<rootDir>/src/index.{ts,tsx}",
+      "!<rootDir>/src/**/index.{ts,tsx}",
+      "!<rootDir>/src/**/*.d.{ts,tsx}",
+      "!<rootDir>/src/serviceWorker.ts",
+      "!<rootDir>/src/setupTests.js",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 60,
+        "functions": 60,
+        "lines": 60,
+        "statements": 60
+      }
+    },
+    "coverageReporters": [
+      "html",
+      "text"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}

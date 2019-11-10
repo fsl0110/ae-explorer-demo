@@ -1,0 +1,9 @@
+{
+  "extends": "@fsl0110/rdk.preset__tslint",
+  "linterOptions": {
+    "exclude": ["node_modules/**/*", "*.d.ts"]
+  },
+  "rules": {
+    "no-any": true
+  }
+}

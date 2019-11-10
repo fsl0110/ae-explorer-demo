@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header> Snapshot 1`] = `
+<styled.header>
+  <h1>
+    Blueprint App
+  </h1>
+  <Link
+    to="/"
+  >
+    Home
+  </Link>
+  <Link
+    to="/contact"
+  >
+    Contact
+  </Link>
+</styled.header>
+`;

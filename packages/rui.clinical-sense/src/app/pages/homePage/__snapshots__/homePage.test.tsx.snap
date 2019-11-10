@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage> Snapshot with count 1`] = `
+<div>
+  <styled.div>
+    <h2>
+      HomePage 
+    </h2>
+    <p>
+      Recieved Count: 
+      1
+    </p>
+    <CounterRedux />
+  </styled.div>
+</div>
+`;
+
+exports[`<HomePage> Snapshot without count 1`] = `
+<div>
+  <styled.div>
+    <h2>
+      HomePage 
+    </h2>
+    <CounterRedux />
+  </styled.div>
+</div>
+`;

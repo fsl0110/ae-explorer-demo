@@ -1,0 +1,13 @@
+{
+  "name": "rui.ae-explorer-demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:yarn": "yarn --cwd packages/rui.clinical-sense run build:app"
+  },
+  "dependencies": {
+    "lerna": "^3.18.3"
+  }
+}
