@@ -6,11 +6,11 @@ const PurgecssPlugin = require("purgecss-webpack-plugin");
 module.exports = function override(config, env) {
   if (env === "production") {
     config.plugins.push(
-      new BundleAnalyzerPlugin({
+      /*       new BundleAnalyzerPlugin({
         analyzerMode: "server",
         statsOptions: {source: false},
         generateStatsFile: true,
-      }),
+      }), */
       new MiniCssExtractPlugin({
         filename: "[name].[chunkhash].css",
       }),
