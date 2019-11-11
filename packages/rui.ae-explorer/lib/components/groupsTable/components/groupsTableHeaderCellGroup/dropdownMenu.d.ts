@@ -1,0 +1,1 @@
+export declare const dropdownMenu: (column: import("@dedrr/rui.component-lib/lib/types").Column, filters: import("@dedrr/rui.component-lib/lib/types").Filter[], handleFilterChange: (payload: import("@dedrr/rui.component-lib/lib/types").Filter[]) => void) => JSX.Element;

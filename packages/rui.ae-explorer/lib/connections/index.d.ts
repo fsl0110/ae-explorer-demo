@@ -1,0 +1,9 @@
+export { GroupsSelectionsConnection } from "./groupsSelections/groupsSelections.redux";
+export { FilterConnection } from "./filter/filter.redux";
+export { GroupsTableConnection } from "./groupsTable/groupsTable.redux";
+export { DetailsConnection } from "./details/details.redux";
+export { DetailsTableConnection } from "./detailsTable/detailsTable.redux";
+export { GroupsTableManagerConnection } from "./groupsTableManager/groupsTableManager.redux";
+export { DetailsFilterButtonsConnection } from "./detailsFilterButtons/detailsFilterButtons.redux";
+export { GroupsFilterButtonsConnection } from "./groupsFilterButtons/groupsFilterButtons.redux";
+export { ShareConnection } from "./share/share.redux";

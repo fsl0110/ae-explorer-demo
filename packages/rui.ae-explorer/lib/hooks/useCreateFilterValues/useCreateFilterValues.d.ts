@@ -1,0 +1,2 @@
+export declare const createFilterValues: (data: import("@dedrr/rui.component-lib/lib/types").Data[], availableFilters: import("@dedrr/rui.component-lib/lib/types").AvailableFilter[], selectedFilters: string[]) => import("@dedrr/rui.component-lib/lib/types").Filter[];
+export declare const useCreateFilterValues: (data: import("@dedrr/rui.component-lib/lib/types").Data[], availableFilters: import("@dedrr/rui.component-lib/lib/types").AvailableFilter[], selectedFilters: string[]) => import("@dedrr/rui.component-lib/lib/types").Filter[];

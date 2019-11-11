@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var styled_components_1 = tslib_1.__importDefault(require("styled-components"));
+exports.FilterCheckStyles = styled_components_1.default.div(templateObject_1 || (templateObject_1 = tslib_1.__makeTemplateObject(["\n  background-color: #fff;\n  border: 1px solid;\n  border-color: ", ";\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  max-width: 250px;\n  padding: 0.25rem 1rem;\n  cursor: pointer;\n  border-radius: 4px;\n\n  :hover {\n    background-color: #fafafa;\n  }\n\n  .anticon-check {\n    padding-top: 2px;\n    color: #0f0;\n  }\n"], ["\n  background-color: #fff;\n  border: 1px solid;\n  border-color: ", ";\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  max-width: 250px;\n  padding: 0.25rem 1rem;\n  cursor: pointer;\n  border-radius: 4px;\n\n  :hover {\n    background-color: #fafafa;\n  }\n\n  .anticon-check {\n    padding-top: 2px;\n    color: #0f0;\n  }\n"])), function (props) { return (!props.checked ? "#ededed" : "#ddd"); });
+var templateObject_1;
+//# sourceMappingURL=filterCheck.styles.js.map

@@ -1,0 +1,1 @@
+export declare const filterData: (data: import("@dedrr/rui.component-lib/lib/types").Data[], filters: import("@dedrr/rui.component-lib/lib/types").Filter[], external?: boolean) => import("@dedrr/rui.component-lib/lib/types").Data[];
