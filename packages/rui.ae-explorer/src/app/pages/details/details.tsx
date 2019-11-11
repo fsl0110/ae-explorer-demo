@@ -1,7 +1,7 @@
 import React, {FC} from "react";
 import {DetailsTableConnection, DetailsFilterButtonsConnection} from "../../connections";
 import {Button} from "antd";
-import {CSVExport, BlockLabel} from "rui.component-lib";
+import {CSVExport, BlockLabel} from "@dedrr/rui.component-lib";
 import {DetailsStyles} from "./details.styles";
 import {Data} from "../../types";
 

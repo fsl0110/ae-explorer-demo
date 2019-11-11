@@ -1,5 +1,5 @@
 import {Column} from "./types";
-import {AvailableFilter} from "rui.component-lib/lib/types";
+import {AvailableFilter} from "@dedrr/rui.component-lib/lib/types";
 
 export const colors = ["Magenta", "blue ", "red ", "green", "orange", "brown", "Violet", "Salmon"];
 

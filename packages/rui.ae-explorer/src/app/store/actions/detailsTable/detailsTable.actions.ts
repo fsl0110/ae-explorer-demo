@@ -1,5 +1,5 @@
 import {Sort} from "../../../types";
-import {Filter} from "rui.component-lib/lib/types";
+import {Filter} from "@dedrr/rui.component-lib/lib/types";
 
 export const SET_ALL_COLUMNS = "SET_ALL_COLUMNS";
 export const SET_SELECTED_COLUMNS = "SET_SELECTED_COLUMNS";

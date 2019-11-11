@@ -5,7 +5,7 @@ import {store} from "./store";
 import {Header} from "./components";
 import {AppStyles} from "./app.styles";
 import "antd/dist/antd.css";
-import {AEExplorer} from "rui.ae-explorer";
+import {AEExplorer} from "@dedrr/rui.ae-explorer";
 import data from "./data.json";
 import tinyData from "./data.tiny.json";
 

@@ -1,8 +1,8 @@
 import React, {FC, useEffect, useState} from "react";
 import {useSelector, useDispatch} from "react-redux";
-import {FilterButtons, isFilterActive} from "rui.component-lib";
+import {FilterButtons, isFilterActive} from "@dedrr/rui.component-lib";
 import {AppState} from "../../types";
-import {Filter} from "rui.component-lib/lib/types";
+import {Filter} from "@dedrr/rui.component-lib/lib/types";
 import {setDataFilters} from "../../store/actions";
 
 export const GroupsFilterButtonsConnection: FC = () => {

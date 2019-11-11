@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import {TableCell} from "rui.component-lib";
+import {TableCell} from "@dedrr/rui.component-lib";
 import {Icon} from "antd";
 import {Link} from "react-router-dom";
 import {GroupsTableRowStyles} from "./groupsTableRowStyles";

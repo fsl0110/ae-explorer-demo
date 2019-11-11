@@ -1,8 +1,8 @@
 import React, {FC, useState, useEffect} from "react";
 import {useSelector, useDispatch} from "react-redux";
-import {DetailsTable} from "rui.component-lib";
+import {DetailsTable} from "@dedrr/rui.component-lib";
 import {AppState, Data, Sort} from "../../types";
-import {Filter} from "rui.component-lib/lib/types";
+import {Filter} from "@dedrr/rui.component-lib/lib/types";
 import {
   setFilters,
   setSort,

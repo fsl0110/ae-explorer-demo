@@ -1,7 +1,7 @@
 import React, {FC, useState, useRef} from "react";
 import {useSelector, useDispatch} from "react-redux";
 import {Button, Drawer} from "antd";
-import {Page, Alignment, useFilters} from "rui.component-lib";
+import {Page, Alignment, useFilters} from "@dedrr/rui.component-lib";
 import {
   GroupsSelectionsConnection,
   FilterConnection,

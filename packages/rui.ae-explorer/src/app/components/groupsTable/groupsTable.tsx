@@ -5,7 +5,7 @@ import {GroupsTableHeader} from "./components/groupsTableHeader/groupsTableHeade
 import {GroupedValue, HeaderGroup, Filter, Sort} from "../../types";
 import {usePrevalenceFilter} from "../../hooks/usePrevalenceFilter/usePrevalenceFilter";
 import {useCategorySearch} from "../../components/groupsTable/hooks";
-import {FilterButtons, SortButtons, useSortNumbers, isFilterActive} from "rui.component-lib";
+import {FilterButtons, SortButtons, useSortNumbers, isFilterActive} from "@dedrr/rui.component-lib";
 import {ButtonsContainerStyles, GroupsTableStyles} from "./groupsTable.styles";
 
 export interface Props {

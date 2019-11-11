@@ -7,7 +7,7 @@ import {useDetailsData} from "./useDetailsData";
 /* import {useColumnReorder} from "../../hooks/useColumnReorder/useColumnReorder"; */
 import {useColumnSelection} from "../../hooks/useColumnSelection/useColumnSelection";
 import {setSelectedColumns, setAllColumns} from "../../store/actions";
-import {getObjAttrs} from "rui.component-lib";
+import {getObjAttrs} from "@dedrr/rui.component-lib";
 import {useStoreParameter} from "../../hooks/useStoreParameter/useStoreParameter";
 
 export interface Props extends RouteComponentProps<{id: string}> {

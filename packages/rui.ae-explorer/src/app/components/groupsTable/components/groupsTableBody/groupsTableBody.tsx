@@ -1,5 +1,5 @@
 import React, {FC, useState, useEffect, Fragment} from "react";
-import {addOrRemoveArrayItem, TableRowNoData} from "rui.component-lib";
+import {addOrRemoveArrayItem, TableRowNoData} from "@dedrr/rui.component-lib";
 import {GroupedValue, Sort} from "../../../../types";
 import {GroupsTableRow} from "../groupsTableRow/groupsTableRow";
 import {GroupsTableRowsExpanded} from "../groupsTableRowsExpanded/groupsTableRowsExpanded";

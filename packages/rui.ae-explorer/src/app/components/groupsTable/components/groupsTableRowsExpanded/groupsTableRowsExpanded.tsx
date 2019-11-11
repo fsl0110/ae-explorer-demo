@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import {GroupsTableRow} from "../groupsTableRow/groupsTableRow";
-import {useSortNumbers} from "rui.component-lib";
+import {useSortNumbers} from "@dedrr/rui.component-lib";
 import {Sort} from "../../../../types";
 import v4 from "uuid/v4";
 

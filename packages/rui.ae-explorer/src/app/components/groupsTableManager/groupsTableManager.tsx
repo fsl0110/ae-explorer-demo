@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import {RadioBlock} from "rui.component-lib";
+import {RadioBlock} from "@dedrr/rui.component-lib";
 
 export interface Props {
   bodyCellsView: string;

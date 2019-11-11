@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import {useSelector, useDispatch} from "react-redux";
-import {FilterManager} from "rui.component-lib";
+import {FilterManager} from "@dedrr/rui.component-lib";
 import {AppState} from "../../store";
 import {setSelectedFilters, setAvailableFilters} from "../../store/actions/filters/filters.actions";
 import {AvailableFilter} from "../../types";

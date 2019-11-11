@@ -1,7 +1,7 @@
 import _ from "lodash";
 import produce from "immer";
 import {Column, Filter, FilterValues} from "../../../../types";
-import {isFilterActive} from "rui.component-lib";
+import {isFilterActive} from "@dedrr/rui.component-lib";
 
 export const handleFilters = (column: Column, filters: Filter[], selectedValues: FilterValues) => {
   const index = filters.findIndex((f: Filter) => f.attribute === column.attribute);

@@ -18,7 +18,7 @@ export const FilterManager: FC<Props> = ({
   getReorderedFilters,
 }) => (
   <FilterManagerStyles>
-    <BlockLabel>Filters to show:</BlockLabel>
+    <BlockLabel>Data Filters to show:</BlockLabel>
     <ItemContainerStyles>
       <CheckBlock
         allValues={_.map(availableFilters, "attribute")}

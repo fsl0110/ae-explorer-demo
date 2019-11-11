@@ -7,7 +7,7 @@ import {
   Filter,
   FilterTypes,
   AvailableFilter,
-} from "rui.component-lib/lib/types";
+} from "@dedrr/rui.component-lib/lib/types";
 import {AppState} from "../store";
 
 export type AppState = AppState;

@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import {Link, withRouter, RouteComponentProps} from "react-router-dom";
-import {PageHeader, BackButton, ModalButton} from "rui.component-lib";
+import {PageHeader, BackButton, ModalButton} from "@dedrr/rui.component-lib";
 import {DetailsTableManagerConnection} from "../../connections/detailsTableManager/detailsTableManager.redux";
 import {StoreManagerConnection} from "../../connections/storeManager/storeManager.redux";
 import {GroupsFilterManagerConnection} from "../../connections/groupsFilterManager/groupsFilterManager.redux";
@@ -23,7 +23,7 @@ const HeaderWithRouter: FC<Props> = ({data, location}) => {
       </Link>
       <StoreManagerConnection />
       <div className="manager">
-        <ModalButton iconName="filter" tooltipTitle="Filter Manager" disabled={!!arr[2]}>
+        <ModalButton iconName="filter" tooltipTitle="Data Filters Manager" disabled={!!arr[2]}>
           <GroupsFilterManagerConnection />
         </ModalButton>
         <ModalButton iconName="table" tooltipTitle="Table Manager">

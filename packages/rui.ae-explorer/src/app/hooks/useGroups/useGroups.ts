@@ -1,7 +1,7 @@
 import {useMemo} from "react";
 import _ from "lodash";
 import {Groups, GroupedValue, HeaderGroup, Sort} from "../../types";
-import {Data} from "rui.component-lib/lib/types";
+import {Data} from "@dedrr/rui.component-lib/lib/types";
 import {computeHeaderGroups} from "./computeHeaderGroups";
 import {computeFooterGroups} from "./computeFooterGroups";
 import {convertFooterGroups} from "./convertFooterGroups";

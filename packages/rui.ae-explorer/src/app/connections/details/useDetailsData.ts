@@ -1,7 +1,7 @@
 import {useMemo} from "react";
 import {filterData} from "./filterData";
 import _ from "lodash";
-import {Filter} from "rui.component-lib/lib/types";
+import {Filter} from "@dedrr/rui.component-lib/lib/types";
 import {Data} from "../../types";
 
 export const computeData = (

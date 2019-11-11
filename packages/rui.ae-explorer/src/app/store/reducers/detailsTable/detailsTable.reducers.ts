@@ -11,7 +11,7 @@ import {
   SET_PAGE,
   SET_RESULTS_PER_PAGE,
 } from "../../actions/detailsTable/detailsTable.actions";
-import {Column, Filter} from "rui.component-lib/lib/types";
+import {Column, Filter} from "@dedrr/rui.component-lib/lib/types";
 import {columnsConfig} from "../../../config";
 import {Sort} from "../../../types";
 

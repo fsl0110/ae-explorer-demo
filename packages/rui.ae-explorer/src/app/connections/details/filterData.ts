@@ -1,6 +1,6 @@
 import {Filter, Data} from "../../types";
 import crossfilter from "crossfilter2";
-import {isFilterActive} from "rui.component-lib";
+import {isFilterActive} from "@dedrr/rui.component-lib";
 
 export const filterData = (data: Data[], filters: Filter[], external: boolean = false): Data[] => {
   if (!filters.length || external || !data.length) {

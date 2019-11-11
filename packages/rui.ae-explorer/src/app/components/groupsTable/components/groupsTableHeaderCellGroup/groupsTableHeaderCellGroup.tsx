@@ -5,7 +5,7 @@ import {HeaderCellStyles} from "./groupsTableHeaderCellGroup.styles";
 import {SortIcon} from "./sortIcon";
 import {Filter, Sort, Column} from "../../../../types";
 import {handleSort} from "../../helpers";
-import {isFilterActive} from "rui.component-lib";
+import {isFilterActive} from "@dedrr/rui.component-lib";
 
 export interface Props extends HTMLAttributes<HTMLTableCellElement> {
   children: ReactNode | ReactNode[];

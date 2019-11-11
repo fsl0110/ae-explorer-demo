@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import {useSelector, useDispatch} from "react-redux";
-import {TableManager} from "rui.component-lib";
+import {TableManager} from "@dedrr/rui.component-lib";
 import {AppState} from "../../types";
 import {
   setUnselectedColumns,

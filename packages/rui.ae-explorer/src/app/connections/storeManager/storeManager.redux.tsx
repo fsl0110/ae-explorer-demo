@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import {useSelector, useDispatch} from "react-redux";
-import {StoreManager} from "rui.component-lib";
+import {StoreManager} from "@dedrr/rui.component-lib";
 import produce from "immer";
 import {ActionCreators} from "redux-undo";
 import {setSelectedSetting, setSettings} from "../../store/storeManager";

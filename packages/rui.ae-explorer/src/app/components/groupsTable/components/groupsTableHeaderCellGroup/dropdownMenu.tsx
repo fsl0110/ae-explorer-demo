@@ -1,5 +1,5 @@
 import React from "react";
-import {SliderBlock} from "rui.component-lib";
+import {SliderBlock} from "@dedrr/rui.component-lib";
 import {MenuStyles} from "./groupsTableHeaderCellGroup.styles";
 import {Column, Filter} from "../../../../types";
 import {handleFilters} from "../../helpers";

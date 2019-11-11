@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 
-import {RadioBlock, SelectBlock} from "rui.component-lib";
+import {RadioBlock, SelectBlock} from "@dedrr/rui.component-lib";
 import {SelectionsStyles} from "./groupsSelections.styles";
 
 export interface Props {

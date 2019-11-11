@@ -1,6 +1,6 @@
 import {useMemo} from "react";
 import {Filter} from "../../types";
-import {isFilterActive} from "rui.component-lib";
+import {isFilterActive} from "@dedrr/rui.component-lib";
 
 interface SelectedValues {
   attribute: string;

@@ -1,6 +1,6 @@
 {
-  "name": "rui.component-lib",
-  "version": "0.2.0",
+  "name": "@dedrr/rui.component-lib",
+  "version": "0.1.0",
   "private": true,
   "main": "lib/index.js",
   "scripts": {

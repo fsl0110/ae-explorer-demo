@@ -1,7 +1,7 @@
 import React, {FC, useState, useEffect} from "react";
 import produce from "immer";
 import {Filter as IFilter, FilterValues} from "../../types";
-import {CheckBlock, SearchBlock, SliderBlock, DateBlock} from "rui.component-lib";
+import {CheckBlock, SearchBlock, SliderBlock, DateBlock} from "@dedrr/rui.component-lib";
 import {FiltersStyles} from "./filters.styles";
 
 export interface Props {
