@@ -1,5 +1,5 @@
 {
-  "name": "rui.ae-explorer-demo",
+  "name": "ae-explorer-demo",
   "private": true,
   "workspaces": [
     "packages/*"

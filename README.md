@@ -1,3 +1,8 @@
+# This prototype was part of an Open Source Project
+
+You can see this prototype running Netlify https://kind-swartz-8f94f0.netlify.app/aeexplorer.
+It is using Monorepo, Micro Frontends and Component Driven Development.
+
 ## How to use CRA-Setup with Yarn Workspace
 
 ### Steps to reproduce
@@ -20,4 +25,4 @@
 
 * Import a component from the componente-lib into the app. E.g. `import {Heading} from "@dedrr/rui.component-lib"`
 
-* **Make changes in the imported component within the component-lib and see the changes in the app within a second! Thats pretty cool isn't it :-)**
+* **Make changes in the imported component within the component-lib and see the changes in the app within a second!**
